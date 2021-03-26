@@ -17,7 +17,7 @@ data_set = []
 # In[87]:
 
 
-with open(r'C:\Users\Ramin\Desktop\Neuer Ordner (8)\python-portfolio-project-starter-files\insurance.csv', newline='') as insurance:
+with open('insurance.csv', newline='') as insurance:
     user_data = csv.DictReader(insurance)
     for row in user_data:
         data_set.append(row)
